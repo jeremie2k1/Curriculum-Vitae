@@ -1,0 +1,46 @@
+body{
+    width: 1000px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.all{
+    display: flex;
+}
+.common{
+    height: 100%;
+    color: white;
+    background-color: #ee82ee;
+    padding: 10px;
+    width: 350px;
+}
+.contact{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.avatar{
+    display: flex;
+    justify-content: center;
+}
+img{
+    display: flex;
+    height: 250px;
+    
+}
+
+/* Phần bên phải */
+.details{
+    background-color: #d3d3d3;
+}
+.titleSelf{
+    display: flex;
+    align-items: center;
+    background-color: #ee82ee;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 25px 25px 25px 0px;
+    width: 600px;
+    height: 30px;
+}
